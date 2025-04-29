@@ -3,9 +3,9 @@
 # Finnkino Elokuvat - jQuery-projekti
 
 ## Projektikuvaus
-Tämä projekti on yksinkertainen elokuvasovellus, joka hakee Finnkino APIsta ajankohtaiset elokuvanäytökset.  
+Projekti on yksinkertainen elokuvasovellus, joka hakee Finnkino APIsta ajankohtaiset elokuvanäytökset.  
 Käyttäjä voi valita teatterin dropdown-valikosta ja sovellus näyttää valitun teatterin elokuvat.  
-Sovellus on toteutettu **jQueryn** avulla ja tyylitelty **Bootstrapilla**.  
+Sovellus on toteutettu jQueryn avulla ja tyylitelty Bootstrapilla  
 
 ## Live-sovellus
 👉 https://graceful-boba-b2d413.netlify.app 
