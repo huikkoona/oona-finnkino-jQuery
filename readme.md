@@ -8,7 +8,7 @@ Käyttäjä voi valita teatterin dropdown-valikosta ja sovellus näyttää valit
 Sovellus on toteutettu **jQueryn** avulla ja tyylitelty **Bootstrapilla**.  
 
 ## Live-sovellus
-👉 [https://oona-elokuva-jquery.netlify.app](https://oona-elokuva-jquery.netlify.app)  
+👉 [oona-elokuva-jquery([https://oona-elokuva-jquery.netlify.app](https://graceful-boba-b2d413.netlify.app))  
 *(vaihda oikea Netlify-linkkisi kun julkaiset!)*
 
 ## GitHub-repositorio
