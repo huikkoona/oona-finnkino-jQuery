@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finnkino Elokuvat</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <style>
+        body {
+            padding: 20px;
+        }
+        .movie-card {
+            background: #f8f9fa;
+            padding: 20px;
+            margin: 15px 0;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="text-center">Finnkino Elokuvat</h1>
+
+        <!-- Dropdown teatterin valintaan -->
+        <div class="mb-4 text-center">
+            <select id="theatre-select" class="form-select w-50 mx-auto">
+                <option value="">Valitse teatteri</option>
+                <option value="Itis">Itis</option>
+                <option value="Kinopalatsi Helsinki">Kinopalatsi Helsinki</option>
+                <option value="Tennispalatsi">Tennispalatsi</option>
+                <option value="Espoo Omena">Espoo Omena</option>
+                <option value="Tampere Plevna">Tampere Plevna</option>
+            </select>
+        </div>
+
+        <div id="movies" class="row"></div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    
+    <!-- Oma JS-tiedosto -->
+    <script src="script.js"></script>
+
+</body>
+</html>
