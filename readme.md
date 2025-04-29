@@ -8,26 +8,23 @@ Käyttäjä voi valita teatterin dropdown-valikosta ja sovellus näyttää valit
 Sovellus on toteutettu **jQueryn** avulla ja tyylitelty **Bootstrapilla**.  
 
 ## Live-sovellus
-👉 [oona-elokuva-jquery([https://oona-elokuva-jquery.netlify.app](https://graceful-boba-b2d413.netlify.app))  
-*(vaihda oikea Netlify-linkkisi kun julkaiset!)*
+👉 https://graceful-boba-b2d413.netlify.app 
 
 ## GitHub-repositorio
-👉 [https://github.com/huikkoona/oona-finnkino-jquery](https://github.com/huikkoona/oona-finnkino-jquery)  
-*(vaihda oikea repo-linkki kun julkaiset!)*
+👉 https://github.com/huikkoona/oona-finnkino-jQuery
 
 ## Videodemo
-👉 [YouTube-linkki videolle tähän]  
-*(muista lisätä videotallenne!)*
+👉 
 
 ## Teknologiat
 - HTML
-- CSS
-- JavaScript (jQuery)
-- Bootstrap 5
-- Netlify (julkaisualusta)
+- CSS (käyttäen edellisen tehtävän koodia)
+- JavaScript
+- Netlify 
+- Github
 
 ## Sovelluksen ominaisuudet
-- Hakee ja näyttää elokuvatiedot Finnkino APIsta (XML → jQuery käsittely)
+- Hakee ja näyttää elokuvatiedot Finnkino APIsta
 - Dropdown-valikolla teatterin valinta
 - FadeIn-efekti kun elokuvakortit tulevat näkyviin
 - Responsiivinen ulkoasu Bootstrapilla
@@ -39,7 +36,4 @@ Sovellus on toteutettu **jQueryn** avulla ja tyylitelty **Bootstrapilla**.
 
 ## Kehittäjä
 Oona Huikko  
-(Voit lisätä halutessasi myös sähköpostin tai muun yhteystiedon.)
 
-## Lisenssi
-Tämä projekti on tehty opiskeluprojektina Laurean AMK:n kurssille.
