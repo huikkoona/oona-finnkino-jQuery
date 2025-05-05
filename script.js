@@ -1,14 +1,18 @@
 // Kun sivu on ladattu
+
 $(document).ready(function() {
     let allMovies = [];
 
     // Suoritetaan Ajax-haku Finnkino APIsta
+    
     $.ajax({
         url: 'https://www.finnkino.fi/xml/Schedule/',
         method: 'GET',
         dataType: 'xml',
         success: function(response) {
+            
             // Tallennetaan kaikki elokuvat muistiin
+            
             $(response).find('Show').each(function() {
                 const movie = {
                     title: $(this).find('Title').text(),
@@ -19,6 +23,7 @@ $(document).ready(function() {
             });
 
             // Näytetään kaikki elokuvat aluksi
+            
             displayMovies(allMovies);
         },
         error: function() {
@@ -27,20 +32,26 @@ $(document).ready(function() {
     });
 
     // Dropdownin kuuntelija
+
     $('#theatre-select').on('change', function() {
         const selectedTheatre = $(this).val();
         
         if (selectedTheatre) {
+            
             // Suodatetaan valitun teatterin elokuvat
+            
             const filteredMovies = allMovies.filter(movie => movie.theatre.includes(selectedTheatre));
             displayMovies(filteredMovies);
         } else {
+            
             // Jos valinta tyhjä, näytetään kaikki elokuvat
+            
             displayMovies(allMovies);
         }
     });
 
     // Funktio elokuvien näyttämiseen
+    
     function displayMovies(movies) {
         $('#movies').empty(); // Tyhjennetään vanhat
 
